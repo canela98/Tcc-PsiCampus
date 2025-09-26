@@ -1,0 +1,133 @@
+body {
+    background-image: url('sobre.png');
+    background-size: 100%;      /* Aumenta o zoom da imagem */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', Arial, sans-serif; /* Fonte moderna */
+    color: #333;
+    /* Remova o text-align: center */
+}
+.topo {
+    background-color: #4b4d50;
+     margin: 10px auto 10px auto; /* Centraliza horizontalmente */
+    width: 30%;
+    color: rgb(227, 223, 223);
+    font-weight: bold;
+    padding: 2px 0;         /* Diminui a altura do fundo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;    /* Diminui o arredondamento */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    padding: 20px 10px 10px 10px;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(255, 241, 241, 0.05);
+    text-align: center; /* Adiciona alinhamento à esquerda */
+}
+
+.texto h1 {
+    color: black;
+    margin-bottom: 18px;
+    font-size: 2em;
+    font-weight: bold;
+ 
+}
+
+.texto p {
+    color: black;
+    margin-bottom: 16px;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+.texto ul {
+    color: black;
+    list-style: none; /* Remove os pontos */
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+
+.texto ul li {
+    color: black;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+.menu {
+    background-color: rgba(249, 250, 251, 0.85); /* Levemente mais visível */
+    width: 40%;
+    margin: 0 auto 30px auto;
+    padding: 10px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    border-bottom: 2px solid #000000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .navegacao ul {
+    list-style: none;      /* Remove os pontos */
+    padding: 0;
+    margin: 0;
+    display: flex;         /* Itens lado a lado */
+    gap: 24px;             /* Espaço entre os itens */
+}
+
+.menu .navegacao ul li a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #0b0e13;
+    font-weight: bold;
+    font-family: 'Montserrat', Arial, sans-serif;
+    padding: 8px 18px;
+    border-radius: 10px;
+    transition: background 0.3s, color 0.3s;
+    background: transparent;
+    font-size: 1.05em;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.menu .navegacao ul li a:hover {
+    background: #000000;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.);
+}
+.sobre-opcoes {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 40px auto;
+    max-width: 900px;
+}
+.opcao {
+    background: linear-gradient(135deg, #e3f0ff 60%, #cce5ff 100%);
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(0,123,255,0.10);
+    padding: 28px 22px;
+    width: 260px;
+    text-align: center;
+    border: 2px solid #b3d1ff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.opcao:hover {
+    transform: scale(1.06) rotate(-2deg);
+    box-shadow: 0 8px 24px rgba(0,123,255,0.18);
+    border-color: #007bff;
+}
+.opcao h3 {
+    color: #007bff;
+    font-size: 22px;
+    margin-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.opcao p {
+    color: #333;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
